@@ -20,7 +20,15 @@
         "descripcion": "Proyecto desarrollado en HTML, CSS y JavaScript, se trata de una tienda de estilo E-commerce, en el que se aplican los fundamentos de CRUD, de JSON, y que en su version deploy permite al usuario agregar y quitar productos.",
         "urlRepo": "https://github.com/Maubautista95/Desafio-3-AluraGeek/tree/main",
         "urlDeploy": "https://desafio-3-alura-geek-a4bvnefnx-maubautista95.vercel.app/"
+      },
+      {
+        "nombre": "TO DO App",
+        "urlImagen": "https://raw.githubusercontent.com/Maubautista95/TODO-APP/master/TO-DO-APP.jpg",
+        "descripcion": "Proyecto desarrollado en HTML, CSS y JavaScript, se trata de una tienda de estilo E-commerce, en el que se aplican los fundamentos de CRUD, de JSON, y que en su version deploy permite al usuario agregar y quitar productos.",
+        "urlRepo": "https://github.com/Maubautista95/TODO-APP",
+        "urlDeploy": "https://github.com/Maubautista95/TODO-APP"
       }
+
     ],
 
     "habilidades":[

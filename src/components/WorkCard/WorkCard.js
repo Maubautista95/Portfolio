@@ -16,7 +16,7 @@ color: white;
 
 img{
     margin: 10px auto;
-    width: 60%;
+    max-width: 60%;
     max-height: 300px
     
     
