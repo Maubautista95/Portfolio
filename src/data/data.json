@@ -1,0 +1,69 @@
+{
+    "proyectos": [
+      {
+        "nombre": "PresseDC.com",
+        "urlImagen": "https://maubautista95.github.io/challenge-one-2/assets/pressedc1.png",
+        "descripcion": "Proyecto realizado con Wordpress, haciendo edición de los estilos a través de CSS, utilizando únicamente las funcionalidades y propiedades gratuitas incluidas dentro de la propia plantilla.",
+        "urlRepo": "https://pressedc.com/",
+        "urlDeploy": "https://pressedc.com/"
+      },
+      {
+        "nombre": "Encriptador de Texto",
+        "urlImagen": "https://maubautista95.github.io/challenge-one-2/assets/decod_print.png",
+        "descripcion": "Proyecto desarrollado en HTML, CSS y JavaScript, capaz de encriptar y desencriptar texto introducido, tiene aplicacion real en proyectos que requieran seguridad extra al momento de manejar información sensible de clientes.",
+        "urlRepo": "https://github.com/Maubautista95/challenge-oracle-one",
+        "urlDeploy": "https://maubautista95.github.io/challenge-oracle-one/"
+      },
+      {
+        "nombre": "AluraGeek",
+        "urlImagen": "https://maubautista95.github.io/challenge-one-2/assets/AluraGeek.png",
+        "descripcion": "Proyecto desarrollado en HTML, CSS y JavaScript, se trata de una tienda de estilo E-commerce, en el que se aplican los fundamentos de CRUD, de JSON, y que en su version deploy permite al usuario agregar y quitar productos.",
+        "urlRepo": "https://github.com/Maubautista95/Desafio-3-AluraGeek/tree/main",
+        "urlDeploy": "https://desafio-3-alura-geek-a4bvnefnx-maubautista95.vercel.app/"
+      }
+    ],
+
+    "habilidades":[
+      
+      {
+        "nombre": "Visual Studio Code"
+      },
+      {
+        "nombre": "Wordpress"
+
+      },
+      {
+        "nombre": "HTML"
+
+      },
+      {
+        "nombre": "CSS"
+
+      },
+      {
+        "nombre": "JavaScript"
+
+      },
+      {
+        "nombre": "ReactJS"
+
+      },
+      {
+        "nombre": "Fetch API"
+
+      },      
+      {
+        "nombre": "JavaSCript Object Notation (JSON)"
+      },
+      {
+        "nombre": "GNU Image Manipulation Program (GIMP)"
+
+      },
+      {
+        "nombre": "B2+ English level"
+
+      }        
+
+    ]
+
+  }
