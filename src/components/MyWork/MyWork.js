@@ -31,6 +31,7 @@ const DivWorks = styled.div`
     grid-gap: 15px;
     padding-bottom: 45px;
     justify-items: center; 
+    align-items: center;
     
     div{
         height: 200px;
