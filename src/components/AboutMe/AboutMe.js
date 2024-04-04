@@ -75,7 +75,7 @@ const Picture = styled.img`
 function AboutMe() {
 
     return <>
-        <DivAbout>
+        <DivAbout id="aboutMe">
             <DivDescription>
                 <h2>Soy Mauricio Bautista. Bienvenido a mi perfil.</h2>
                 <h3>¿Quién soy, cuál es mi historia?</h3>

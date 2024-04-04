@@ -30,14 +30,14 @@ const DivSkills = styled.div`
 function Skills ({dataHabilidades}){
 
 
-console.log(dataHabilidades)
+
 
 
 return <>
 
     <h2 style={{ textAlign: "center", padding: "1.5rem 0"}}>Mis habilidades</h2>
     
-    <DivSkills>
+    <DivSkills id="skills">
 
     {dataHabilidades.map(habilidad => (
           <div key={habilidad.nombre}> {habilidad.nombre} </div>
