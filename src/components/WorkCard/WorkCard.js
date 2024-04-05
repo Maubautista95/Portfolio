@@ -12,7 +12,7 @@ padding-bottom: 25px;
 border: 4px solid #6293a4;
 border-radius: 3px;
 color: white;
-transition: all 0.8s ease-in-out;
+transition: all 0.8s;
 
 &:hover{
  
@@ -30,7 +30,7 @@ img{
     margin: 10px auto;
     max-width: 60%;
     max-height: 300px
-    transition: all 0.8s ease-in-out;
+    transition: all 2s ease-in-out;
     
 }
 
