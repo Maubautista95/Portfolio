@@ -4,6 +4,7 @@ import logoSvg from "../Header/HeaderLogo.svg";
 import rightArrowSVG from "../../images/RightArrow.svg";
 import { Link } from 'react-scroll';
 
+
 const HeaderDiv = styled.div`
   background: radial-gradient(circle, rgba(0, 0, 0, 1) 75%, rgba(19, 35, 102, 1) 96%);
   color: white;
@@ -34,9 +35,17 @@ const HeaderUl = styled.ul`
   list-style: none;
   display: flex;
   gap: 13px;
+  
+  
+  a {
+    color: white;
+    transition: 2s;
+  }
 
-  :hover {
+  li > a:hover {
     color: lightgrey;
+    font-size: 1.1rem;
+    cursor: pointer;
   }
 
   @media (max-width: 412px) {
@@ -54,10 +63,16 @@ function Header() {
 
     return (
         <HeaderDiv id="header">
+          
             <HeaderNav>
+                <a href='.'>
                 <HeaderName>
                     <img src={logoSvg} alt="Logo" style={{ width: '36px' }} /> Mauricio Bautista
                 </HeaderName>
+
+                </a>
+
+                
                 <HeaderUl>
                     <li><a href="#">Sobre mi</a></li>
                     <li>

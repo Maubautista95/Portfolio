@@ -38,7 +38,6 @@ function App() {
   <DivBody>
       
       <Header />
-      
       <ContentStyles>
       <ArrowUp />
         <AboutMe />

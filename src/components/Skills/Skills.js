@@ -9,6 +9,7 @@ const DivSkills = styled.div`
     grid-template-columns: 1fr 1fr; /* Dos columnas de igual ancho */
     grid-gap: 10px;
     
+
     
     div{
 
@@ -18,6 +19,13 @@ const DivSkills = styled.div`
         align-items: center;
         text-align: center;
         justify-content: center;
+        transition: 0.8s
+    }
+
+    div:hover{
+
+        color: lightgrey;
+        font-size: 1.1rem;
 
     }
 
