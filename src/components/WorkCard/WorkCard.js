@@ -18,6 +18,7 @@ transition: all 0.8s ease-in-out;
  
   border: 4px solid white;
   
+  
   img{
 
     max-width: 62%;
@@ -29,7 +30,7 @@ img{
     margin: 10px auto;
     max-width: 60%;
     max-height: 300px
-    transition: 5s
+    transition: all 0.8s ease-in-out;
     
 }
 
