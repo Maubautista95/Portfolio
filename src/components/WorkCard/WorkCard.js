@@ -12,7 +12,12 @@ padding-bottom: 25px;
 border: 4px solid #6293a4;
 border-radius: 3px;
 color: white;
-transition: all 0.8s;
+transition: all 1.2s;
+display: flex;
+flex-direction: column;
+
+gap: 40px;
+
 
 &:hover{
  
@@ -21,15 +26,17 @@ transition: all 0.8s;
   
   img{
 
-    max-width: 62%;
+    
+    max-height: 105%;
   
   }
 }
 
 img{
+
     margin: 10px auto;
     max-width: 60%;
-    max-height: 300px
+    max-height: 99%;  
     transition: all 2s ease-in-out;
     
 }
@@ -61,7 +68,8 @@ flex-direction: column;
 align-items: center;
 padding: 10px 0;
 text-align: left;
-margin: 3px 0;
+margin: 3px 0 135px 0;
+flex-grow: 1;
 
 
 p{
@@ -75,11 +83,13 @@ p{
 
 const DivWorkButtons = styled.div`
 
-margin-top: 160px;
+
 display: flex;
 justify-content: space-around;
 align-items: center;
 max-height: 80px;
+padding-bottom: 30px;
+flex-grow: 1;
 
 button {
     margin: 0 auto;
