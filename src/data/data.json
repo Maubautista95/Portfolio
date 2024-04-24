@@ -27,6 +27,13 @@
         "descripcion": "Proyecto desarrollado en HTML, CSS, la librería Bootstrap y JavaScript, es un proyecto en el que se aplican las bases de JavaScript para crear un recuadro que permite añadir tareas, editarlas, o borrarlas",
         "urlRepo": "https://github.com/Maubautista95/TODO-APP",
         "urlDeploy": "https://todoapp-six-omega.vercel.app/"
+      },
+      {
+        "nombre": "Digital-Flix",
+        "urlImagen": "https://raw.githubusercontent.com/Maubautista95/Portfolio/master/src/images/Digital-flix.jpg",
+        "descripcion": "App universitaria full stack desarrollada con React JS y MongoDB, la App permite crear, leer, editar y escribir datos nuevos, en este caso, de películas y series a gusto del usuario; en ocasiones, puede tardar algunos minutos en traer los datos debido a utilización de servicios gratuitos para su construcción.",
+        "urlRepo": "https://github.com/Maubautista95/Digital-flix",
+        "urlDeploy": "https://digital-flix-five.vercel.app/"
       }
 
     ],
