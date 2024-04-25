@@ -1,0 +1,121 @@
+{
+    
+    "aboutMe":{
+        "title1": "I am Mauricio Bautista, welcome to my Portfolio!",
+        "title2": "Who am I, what is my story?",
+        "paragraph1": "I am a passionate Software Development student, currently in the final semesters of a program that will qualify me as a Software Development Technologist at the Digital University Institution of Antioquia. I am fluent in both Spanish and English and have completed the Oracle ONE Bootcamp. My enthusiasm for technology and my dedication to learn are making me a promising professional in the field of software development 🚀.",
+        "paragraph2": "I started as an ordinary student with some good affinity for English, which led me to participate in  many temporary customer service jobs to later become a self-taught learner of WordPress, HTML, CSS, JavaScript, and React. All of this was made possible with the knowledge I gained at my alma mater, also in Oracle Next Education (ONE) virtual bootcamp, and of course, with my own dedication and discipline in understanding key concepts that allow me to integrate artificial intelligence as a tool."
+    },
+
+    
+    
+    "proyectos": [
+      {
+        "nombre": "PresseDC.com",
+        "urlImagen": "https://maubautista95.github.io/challenge-one-2/assets/pressedc1.png",
+        "descripcion": "Project developed using WordPress, making style edits through CSS and some hard coded parts in HTML,  only employing the free features and properties included within the Wordpress theme itself.",
+        "urlRepo": "https://pressedc.com/",
+        "urlDeploy": "https://pressedc.com/"
+      },
+      {
+        "nombre": "Encriptador de Texto",
+        "urlImagen": "https://maubautista95.github.io/challenge-one-2/assets/decod_print.png",
+        "descripcion": "Project developed in HTML, CSS, and JavaScript, capable of encrypting and decrypting input text, it has real-world applications in projects that require extra security when handling sensitive customer information.",
+        "urlRepo": "https://github.com/Maubautista95/challenge-oracle-one",
+        "urlDeploy": "https://maubautista95.github.io/challenge-oracle-one/"
+      },
+      {
+        "nombre": "AluraGeek",
+        "urlImagen": "https://maubautista95.github.io/challenge-one-2/assets/AluraGeek.png",
+        "descripcion": "Project developed in HTML, CSS, and JavaScript, it is an E-commerce style store, in which the fundamentals of CRUD, JSON are applied, by downloading and using json-server locally,  it allows the user to add and remove products.",
+        "urlRepo": "https://github.com/Maubautista95/Desafio-3-AluraGeek/tree/main",
+        "urlDeploy": "https://desafio-3-alura-geek-a4bvnefnx-maubautista95.vercel.app/"
+      },
+      {
+        "nombre": "TO DO App",
+        "urlImagen": "https://raw.githubusercontent.com/Maubautista95/TODO-APP/master/TO-DO-APP.jpg",
+        "descripcion": "Project developed in HTML, CSS, the Bootstrap library, and JavaScript, it is a project in which the fundamentals of JavaScript are applied to create a box that allows adding, editing, or deleting tasks.",
+        "urlRepo": "https://github.com/Maubautista95/TODO-APP",
+        "urlDeploy": "https://todoapp-six-omega.vercel.app/"
+      },
+      {
+        "nombre": "Digital-Flix",
+        "urlImagen": "https://raw.githubusercontent.com/Maubautista95/Portfolio/master/src/images/Digital-flix.jpg",
+        "descripcion": "Full-stack app developed as a university activity with React JS and MongoDB, the app allows users to create, read, edit, and write new data, in this case, movie and series information according to user preferences; on occasion, it may take a few minutes to retrieve data due to the use of free services for its construction.",
+        "urlRepo": "https://github.com/Maubautista95/Digital-flix",
+        "urlDeploy": "https://digital-flix-five.vercel.app/"
+      }
+
+    ],
+
+    "habilidades":[
+      
+      {
+        "nombre": "Visual Studio Code"
+      },
+      {
+        "nombre": "Wordpress"
+
+      },
+      {
+        "nombre": "HTML"
+
+      },
+      {
+        "nombre": "CSS"
+
+      },
+      {
+        "nombre": "JavaScript"
+
+      },
+      {
+        "nombre": "ReactJS"
+
+      },
+      {
+        "nombre": "Fetch API"
+
+      },      
+      {
+        "nombre": "JavaSCript Object Notation (JSON)"
+      },
+      {
+        "nombre": "GNU Image Manipulation Program (GIMP)"
+
+      },
+      {
+        "nombre": "B2+ English level"
+
+      }        
+
+    ],
+
+    "header":{
+      
+      "homeLink": "/en",
+      "aboutMe": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "contact": "Contact me"   
+    },
+
+    "myWork":{
+
+      "title": "Apps and projects developed",
+      "description": "A compilation of the projects I have developed across the time.",
+      "deployed": "Deployed site" 
+
+    },
+    "skills":{
+      "skillsTitle": "My skills"
+    },
+    "contact":{
+      "contactTitle": "Contact me",
+      "phone": "WhatsApp/Phone."
+    }
+
+
+
+
+  }

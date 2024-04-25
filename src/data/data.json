@@ -1,84 +1,96 @@
 {
-    "proyectos": [
-      {
-        "nombre": "PresseDC.com",
-        "urlImagen": "https://maubautista95.github.io/challenge-one-2/assets/pressedc1.png",
-        "descripcion": "Proyecto realizado con Wordpress, haciendo edición de los estilos a través de CSS, utilizando únicamente las funcionalidades y propiedades gratuitas incluidas dentro de la propia plantilla.",
-        "urlRepo": "https://pressedc.com/",
-        "urlDeploy": "https://pressedc.com/"
-      },
-      {
-        "nombre": "Encriptador de Texto",
-        "urlImagen": "https://maubautista95.github.io/challenge-one-2/assets/decod_print.png",
-        "descripcion": "Proyecto desarrollado en HTML, CSS y JavaScript, capaz de encriptar y desencriptar texto introducido, tiene aplicacion real en proyectos que requieran seguridad extra al momento de manejar información sensible de clientes.",
-        "urlRepo": "https://github.com/Maubautista95/challenge-oracle-one",
-        "urlDeploy": "https://maubautista95.github.io/challenge-oracle-one/"
-      },
-      {
-        "nombre": "AluraGeek",
-        "urlImagen": "https://maubautista95.github.io/challenge-one-2/assets/AluraGeek.png",
-        "descripcion": "Proyecto desarrollado en HTML, CSS y JavaScript, se trata de una tienda de estilo E-commerce, en el que se aplican los fundamentos de CRUD, de JSON, y que en su version deploy permite al usuario agregar y quitar productos.",
-        "urlRepo": "https://github.com/Maubautista95/Desafio-3-AluraGeek/tree/main",
-        "urlDeploy": "https://desafio-3-alura-geek-a4bvnefnx-maubautista95.vercel.app/"
-      },
-      {
-        "nombre": "TO DO App",
-        "urlImagen": "https://raw.githubusercontent.com/Maubautista95/TODO-APP/master/TO-DO-APP.jpg",
-        "descripcion": "Proyecto desarrollado en HTML, CSS, la librería Bootstrap y JavaScript, es un proyecto en el que se aplican las bases de JavaScript para crear un recuadro que permite añadir tareas, editarlas, o borrarlas",
-        "urlRepo": "https://github.com/Maubautista95/TODO-APP",
-        "urlDeploy": "https://todoapp-six-omega.vercel.app/"
-      },
-      {
-        "nombre": "Digital-Flix",
-        "urlImagen": "https://raw.githubusercontent.com/Maubautista95/Portfolio/master/src/images/Digital-flix.jpg",
-        "descripcion": "App universitaria full stack desarrollada con React JS y MongoDB, la App permite crear, leer, editar y escribir datos nuevos, en este caso, de películas y series a gusto del usuario; en ocasiones, puede tardar algunos minutos en traer los datos debido a utilización de servicios gratuitos para su construcción.",
-        "urlRepo": "https://github.com/Maubautista95/Digital-flix",
-        "urlDeploy": "https://digital-flix-five.vercel.app/"
-      }
-
-    ],
-
-    "habilidades":[
-      
-      {
-        "nombre": "Visual Studio Code"
-      },
-      {
-        "nombre": "Wordpress"
-
-      },
-      {
-        "nombre": "HTML"
-
-      },
-      {
-        "nombre": "CSS"
-
-      },
-      {
-        "nombre": "JavaScript"
-
-      },
-      {
-        "nombre": "ReactJS"
-
-      },
-      {
-        "nombre": "Fetch API"
-
-      },      
-      {
-        "nombre": "JavaSCript Object Notation (JSON)"
-      },
-      {
-        "nombre": "GNU Image Manipulation Program (GIMP)"
-
-      },
-      {
-        "nombre": "B2+ English level"
-
-      }        
-
-    ]
-
+  "aboutMe": {
+    "title1": "Soy Mauricio Bautista Rubiano. Bienvenid@ a mi portafolio.",
+    "title2": "¿Quién soy, cuál es mi historia?",
+    "paragraph1": "Soy un estudiante apasionado de Desarrollo de Software, actualmente me encuentro cursando los últimos semestres de un programa que me acreditará como Tecnólogo en Desarrollo de Software en la Institución Universitaria Digital de Antioquia. Hablo tanto español como inglés y he completado el Bootcamp Oracle ONE. Mi entusiasmo por la tecnología y mi dedicación al aprendizaje me están convirtiendo en un prometedor profesional en el campo del desarrollo de software 🚀.",
+    "paragraph2": "Empecé como un estudiante común y corriente con algo de afinidad al inglés, lo cuál me llevó a participar en empleos de servicio al cliente, y a ser autodidacta para aprender sobre Wordpress, HTML, CSS, JavaScript, y React, todo con ayuda de conocimientos adquiridos en mi Alma Mater y Oracle con su programa virtual de Bootcamp Next Education (ONE) y claro, con mi propio esmero y disciplina en el entendimiento de conceptos clave, que me permiten integrar la inteligencia artificial como una herramienta."
+  },
+  "proyectos": [
+    {
+      "nombre": "PresseDC.com",
+      "urlImagen": "https://maubautista95.github.io/challenge-one-2/assets/pressedc1.png",
+      "descripcion": "Proyecto realizado con Wordpress, haciendo edición de los estilos a través de CSS, utilizando únicamente las funcionalidades y propiedades gratuitas incluidas dentro de la propia plantilla.",
+      "urlRepo": "https://pressedc.com/",
+      "urlDeploy": "https://pressedc.com/"
+    },
+    {
+      "nombre": "Encriptador de Texto",
+      "urlImagen": "https://maubautista95.github.io/challenge-one-2/assets/decod_print.png",
+      "descripcion": "Proyecto desarrollado en HTML, CSS y JavaScript, capaz de encriptar y desencriptar texto introducido, tiene aplicacion real en proyectos que requieran seguridad extra al momento de manejar información sensible de clientes.",
+      "urlRepo": "https://github.com/Maubautista95/challenge-oracle-one",
+      "urlDeploy": "https://maubautista95.github.io/challenge-oracle-one/"
+    },
+    {
+      "nombre": "AluraGeek",
+      "urlImagen": "https://maubautista95.github.io/challenge-one-2/assets/AluraGeek.png",
+      "descripcion": "Proyecto desarrollado en HTML, CSS y JavaScript, se trata de una tienda de estilo E-commerce, en el que se aplican los fundamentos de CRUD, de JSON, y que en su version deploy permite al usuario agregar y quitar productos.",
+      "urlRepo": "https://github.com/Maubautista95/Desafio-3-AluraGeek/tree/main",
+      "urlDeploy": "https://desafio-3-alura-geek-a4bvnefnx-maubautista95.vercel.app/"
+    },
+    {
+      "nombre": "TO DO App",
+      "urlImagen": "https://raw.githubusercontent.com/Maubautista95/TODO-APP/master/TO-DO-APP.jpg",
+      "descripcion": "Proyecto desarrollado en HTML, CSS, la librería Bootstrap y JavaScript, es un proyecto en el que se aplican las bases de JavaScript para crear un recuadro que permite añadir tareas, editarlas, o borrarlas",
+      "urlRepo": "https://github.com/Maubautista95/TODO-APP",
+      "urlDeploy": "https://todoapp-six-omega.vercel.app/"
+    },
+    {
+      "nombre": "Digital-Flix",
+      "urlImagen": "https://raw.githubusercontent.com/Maubautista95/Portfolio/master/src/images/Digital-flix.jpg",
+      "descripcion": "App universitaria full stack desarrollada con React JS y MongoDB, la App permite crear, leer, editar y escribir datos nuevos, en este caso, de películas y series a gusto del usuario; en ocasiones, puede tardar algunos minutos en traer los datos debido a utilización de servicios gratuitos para su construcción.",
+      "urlRepo": "https://github.com/Maubautista95/Digital-flix",
+      "urlDeploy": "https://digital-flix-five.vercel.app/"
+    }
+  ],
+  "habilidades": [
+    {
+      "nombre": "Visual Studio Code"
+    },
+    {
+      "nombre": "Wordpress"
+    },
+    {
+      "nombre": "HTML"
+    },
+    {
+      "nombre": "CSS"
+    },
+    {
+      "nombre": "JavaScript"
+    },
+    {
+      "nombre": "ReactJS"
+    },
+    {
+      "nombre": "Fetch API"
+    },
+    {
+      "nombre": "JavaSCript Object Notation (JSON)"
+    },
+    {
+      "nombre": "GNU Image Manipulation Program (GIMP)"
+    },
+    {
+      "nombre": "B2+ English level"
+    }
+  ],
+  "header": {
+    "homeLink": "/",
+    "aboutMe": "Sobre mi",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "contact": "Contáctame"
+  },
+  "myWork": {
+    "title": "Apps y proyectos realizados",
+    "description": "Un compendio de los trabajos que con el tiempo he realizado",
+    "deployed": "Sitio Desplegado"
+  },
+  "skills": {
+    "skillsTitle": "Mis habilidades"
+  },
+  "contact": {
+    "contactTitle": "Contactáme",
+    "phone": "WhatsApp/Teléfono movil."
   }
+}

@@ -35,7 +35,7 @@ const DivSkills = styled.div`
 `
 
 
-function Skills ({dataHabilidades}){
+function Skills ({dataHabilidades, dataSkills}){
 
 
 
@@ -43,7 +43,7 @@ function Skills ({dataHabilidades}){
 
 return <>
 
-    <h2 style={{ textAlign: "center", padding: "1.5rem 0"}}>Mis habilidades</h2>
+    <h2 style={{ textAlign: "center", padding: "1.5rem 0"}}>{dataSkills.skillsTitle}</h2>
     
     <DivSkills id="skills">
 

@@ -72,22 +72,17 @@ const Picture = styled.img`
 
 
 
-function AboutMe() {
+function AboutMe({dataAboutMe}) {
 
+
+    
     return <>
         <DivAbout id="aboutMe">
             <DivDescription>
-                <h2>Soy Mauricio Bautista Rubiano. Bienvenid@ a mi portafolio.</h2>
-                <h3>¿Quién soy, cuál es mi historia?</h3>
-                <p>Soy un estudiante apasionado de Desarrollo de Software, actualmente me encuentro cursando los últimos semestres de un programa 
-                    que me acreditará como Tecnólogo en Desarrollo de Software en la Institución Universitaria Digital de Antioquia. Hablo tanto español como inglés y 
-                    he completado el Bootcamp Oracle ONE. Mi entusiasmo por la tecnología y mi dedicación al aprendizaje me están convirtiendo en 
-                    un prometedor profesional en el campo del desarrollo de software 🚀.</p>
-                <p>Empecé como un estudiante común y corriente con algo de afinidad al inglés, lo cuál me llevó a participar en empleos de servicio
-                    al cliente, y a ser autodidacta para aprender sobre Wordpress, HTML, CSS, JavaScript, y React, todo con ayuda de conocimientos 
-                    adquiridos en mi Alma Mater y Oracle con su programa virtual de Bootcamp Next Education (ONE) y claro, con mi propio esmero y disciplina 
-                    en el entendimiento de conceptos clave, que me permiten integrar la inteligencia artificial como una herramienta.
-                </p>
+                <h2>{dataAboutMe.title1}</h2>
+                <h3>{dataAboutMe.title2}</h3>
+                <p>{dataAboutMe.paragraph1}</p>
+                <p>{dataAboutMe.paragraph2}</p>
             </DivDescription>
             <DivPicture>
                 <Picture src={fotoPerfil} alt="Picture of myself / Mi foto de perfil" />

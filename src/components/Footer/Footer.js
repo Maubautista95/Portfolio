@@ -70,18 +70,18 @@ const DivContact = styled.div`
 
 `
 
-function Footer (){
+function Footer ({dataContact}){
 
 
     return <>
 
         <DivFooter>
-            <h2>Contáctame</h2>
+            <h2>{dataContact.contactTitle}</h2>
            
             <DivContact>
                 <div>
                     <h3>Email</h3>
-                    <a href="mailto:tucorreo@ejemplo.com">mbautistarubiano@gmail.com</a>
+                    <a href="mailto:mbautistarubiano@gmail.com">mbautistarubiano@gmail.com</a>
                 </div>
 
                 <div>
@@ -90,7 +90,7 @@ function Footer (){
                 </div>
 
                 <div>
-                    <h3>WhatsApp/Phone</h3>
+                    <h3>{dataContact.phone}</h3>    
 
                     <a href="https://api.whatsapp.com/send?phone=573195453882&text=Hola%2C%20te%20contacto%20desde%20tu%20sitio%20web" target="_blank">
                         <img src={WhatsAppIcon} alt="Copy Phone Number" />

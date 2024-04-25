@@ -1,51 +1,45 @@
 import React, { useRef } from 'react';
 import styled from 'styled-components';
-import Header from './components/Header/Header';
-import AboutMe from './components/AboutMe/AboutMe';
-import Skills from './components/Skills/Skills';
-import MyWork from './components/MyWork/MyWork';
-import Footer from './components/Footer/Footer';
-import ArrowUp from './components/ArrowUp/ArrowUp';
-import data from '../src/data/data.json';
+import LanguageTopBar from './components/LanguageTopBar/LanguageTopBar';
+import PageSpanish from './components/Pages/PageSpanish/PageSpanish';
+import PageEnglish from './components/Pages/PageEnglish/PageEnglish';
+import data from "./data/data.json"
+import dataEnglish from "./data/dataEnglish.json"
+import ArrowUp from "../src/components/ArrowUp/ArrowUp"
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 const DivBody = styled.div`
   font-family: "Quicksand", sans-serif;
 `;
 
-const ContentStyles = styled.div`
-  margin: 25px 15vw;
 
-  h2 {
-    font-size: 2rem;
-    margin: 21px 0;
-  }
-  h3 {
-    font-size: 1.4rem;
-  }
-  p {
-    font-size: 1rem;
-  }
-`;
 
 function App() {
-  
+
   // Información extraída de data.json
-  const dataProyectos = data.proyectos;
-  const dataHabilidades = data.habilidades;
- 
+
+
+
+
   return (
 
-  <DivBody>
-      
-      <Header />
-      <ContentStyles>
+    <>
+      <DivBody>
       <ArrowUp />
-        <AboutMe />
-        <MyWork dataProyectos={dataProyectos}/>
-        <Skills dataHabilidades={dataHabilidades} />
-        <Footer />
-      </ContentStyles>
-    </DivBody>
+        <LanguageTopBar></LanguageTopBar>
+        <BrowserRouter>
+        <Routes>
+          
+          <Route path="/" element={<PageSpanish data={data} />} />
+          <Route path="/en" element={<PageEnglish data={dataEnglish} />} />
+          
+        </Routes>
+          
+        </BrowserRouter>
+        
+      </DivBody>
+      
+    </>
   );
 }
 

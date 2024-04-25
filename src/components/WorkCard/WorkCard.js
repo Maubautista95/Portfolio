@@ -115,7 +115,7 @@ button {
 `
 
 
-function WorkCard ( {data} ){
+function WorkCard ( {data, dataMyWork} ){
 
 
 
@@ -140,7 +140,7 @@ return<>
   <DivWorkButtons>
 
     <a href={data.urlRepo} target="_blank"><button>Repo</button></a>
-    <a href={data.urlDeploy} target="_blank"><button>Deployed Site</button></a>
+    <a href={data.urlDeploy} target="_blank"><button>{dataMyWork.deployed}</button></a>
 
   </DivWorkButtons>
 

@@ -42,17 +42,17 @@ const DivWorks = styled.div`
       width: 60vw;
     }
   }
-`;
+`; 
 
-function MyWork({ dataProyectos, myWorkRef }) {
+function MyWork({ dataProyectos, dataMyWork}) {
   return (
     <>
-      <DivBackGround ref={myWorkRef} id="MyWork">
-        <h2>Apps y proyectos realizados</h2>
-        <p>Un compendio de los trabajos que con el tiempo he realizado</p>
+      <DivBackGround id="MyWork">
+        <h2>{dataMyWork.title}</h2>
+        <p>{dataMyWork.description}</p>
         <DivWorks>
           {dataProyectos.map((proyecto) => (
-            <WorkCard key={proyecto.nombre} data={proyecto} />
+            <WorkCard key={proyecto.nombre} data={proyecto} dataMyWork={dataMyWork}/>
           ))}
         </DivWorks>
       </DivBackGround>

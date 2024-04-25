@@ -56,7 +56,7 @@ const HeaderUl = styled.ul`
 
 const Logo = logoSvg;
 
-function Header() {
+function Header({dataHeader}) {
 
 
 
@@ -65,7 +65,7 @@ function Header() {
         <HeaderDiv id="header">
           
             <HeaderNav>
-                <a href='.'>
+                <a href={dataHeader.homeLink}>
                 <HeaderName>
                     <img src={logoSvg} alt="Logo" style={{ width: '36px' }} /> Mauricio Bautista
                 </HeaderName>
@@ -74,7 +74,7 @@ function Header() {
 
                 
                 <HeaderUl>
-                    <li><a href="#">Sobre mi</a></li>
+                    <li><a href="#">{dataHeader.aboutMe}</a></li>
                     <li>
                         <Link
                         activeClass="active"
@@ -84,7 +84,7 @@ function Header() {
                         offset={50}
                         duration={500}   
                     >
-                        Proyectos
+                        {dataHeader.projects}
                     </Link>
                     </li>
                     <li>
@@ -96,7 +96,7 @@ function Header() {
                         offset={50}
                         duration={500}   
                     >
-                        Habilidades
+                        {dataHeader.skills}
                     </Link>
                     </li>
                     <li><Link
@@ -105,7 +105,7 @@ function Header() {
                         spy={true}
                         smooth={true}
                         offset={50}
-                        duration={500}>Contáctame<img src={rightArrowSVG} alt="Logo" style={{ width: '16px' }} /></Link></li>
+                        duration={500}>{dataHeader.contact}<img src={rightArrowSVG} alt="Logo" style={{ width: '16px' }} /></Link></li>
                 </HeaderUl>
             </HeaderNav>
             
