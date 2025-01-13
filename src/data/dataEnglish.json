@@ -3,8 +3,8 @@
     "aboutMe":{
         "title1": "I am Mauricio Bautista, welcome to my Portfolio!",
         "title2": "Who am I, what is my story?",
-        "paragraph1": "I am a passionate Software Development student, currently in the final semesters of an associate's degree in Software Development at the Digital University Institution of Antioquia. I am fluent in both Spanish and English and have completed the Oracle ONE Bootcamp. My enthusiasm for technology and my dedication to learn are making me a promising professional in the field of software development 🚀.",
-        "paragraph2": "I started as an ordinary student with some good affinity for English, which led me to participate in  many temporary customer service jobs to later become a self-taught learner of WordPress, HTML, CSS, JavaScript, and React. All of this was made possible with the knowledge I gained at my alma mater, also in Oracle Next Education (ONE) virtual bootcamp, and of course, with my own dedication and discipline in understanding key concepts that allow me to integrate artificial intelligence as a tool."
+        "paragraph1": "I am a passionate Software Development student, who recently finished all of the subjects and internship to complete my associate's degree in Software Development at the Digital University Institution of Antioquia/IU Digital de Antioquia and Nimbutech S.A.S. as a trainee Odoo Developer and also in the implementation of HTML E-Mail Signatures through the Microsoft Exchange tenant. I am fluent in both Spanish and English and I have completed the Oracle Next Education Bootcamp. My enthusiasm for technology and my dedication to learn are making me a promising professional in the software development industry 🚀.",
+        "paragraph2": "I started as an ordinary student with some good affinity for English, which led me to participate in  many temporary customer service jobs to later become a self-taught developer using WordPress, HTML, CSS, JavaScript, React and more recently during my professional practices,  software development skills for Odoo ERP, and E-Mail Signatures creation with HTML and Management through Microsoft Exchange Tenant. All of this was made possible with the knowledge I gained at my alma mater, also in Oracle Next Education (ONE) virtual bootcamp, and of course, with my own dedication and discipline in understanding key concepts that allow me to integrate artificial intelligence as a tool to speed processes."
     },
 
     
@@ -48,47 +48,55 @@
 
     ],
 
-    "habilidades":[
-      
+    "habilidades": [
       {
         "nombre": "Visual Studio Code"
       },
       {
         "nombre": "Wordpress"
-
       },
       {
         "nombre": "HTML"
-
       },
       {
         "nombre": "CSS"
-
       },
       {
         "nombre": "JavaScript"
-
       },
       {
         "nombre": "ReactJS"
-
       },
       {
         "nombre": "Fetch API"
-
-      },      
+      },
       {
         "nombre": "JavaSCript Object Notation (JSON)"
       },
       {
         "nombre": "GNU Image Manipulation Program (GIMP)"
-
+      },
+      {
+        "nombre": "Inkscape"
       },
       {
         "nombre": "B2+ English level"
-
-      }        
-
+      },
+      {
+        "nombre": "Python"
+      },
+      {
+        "nombre": "Odoo ERP Development"
+      },
+      {
+        "nombre": "XML and QWeb for Odoo"
+      },
+      {
+        "nombre": "HTML E-Mail Signatures"
+      },
+      {
+        "nombre": "Microsoft Exchange"
+      }
     ],
 
     "header":{
