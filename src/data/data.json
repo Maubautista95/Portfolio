@@ -6,12 +6,12 @@
     "paragraph2": "Empecé como un estudiante común y corriente con algo de afinidad al inglés, lo cuál me llevó a participar en empleos de servicio al cliente, y a ser autodidacta para aprender sobre Wordpress, HTML, CSS, JavaScript, React, y más recientemente en mis prácticas profesionales, desarrollo para el ERP Odoo y firmas HTML de Microsoft Exchange, todo con ayuda de conocimientos adquiridos en mi Alma Mater y Oracle con su programa virtual de Bootcamp Next Education (ONE) y claro, con mi propio esmero y disciplina en el entendimiento de conceptos clave, que me permiten integrar la inteligencia artificial como una herramienta para agilizar procesos."
   },
   "proyectos": [
-    {
+        {
       "nombre": "PresseDC.com",
       "urlImagen": "https://maubautista95.github.io/challenge-one-2/assets/pressedc1.png",
       "descripcion": "Proyecto realizado con Wordpress, haciendo edición de los estilos a través de CSS, utilizando únicamente las funcionalidades y propiedades gratuitas incluidas dentro de la propia plantilla.",
-      "urlRepo": "https://pressedc.com/",
-      "urlDeploy": "https://pressedc.com/"
+      "urlRepo": "https://maubautista95.github.io/challenge-one-2/assets/pressedc1.png",
+      "urlDeploy": "https://maubautista95.github.io/challenge-one-2/assets/pressedc1.png"
     },
     {
       "nombre": "Encriptador de Texto",
